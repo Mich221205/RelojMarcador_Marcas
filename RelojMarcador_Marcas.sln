@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend_ModuloUsuarios", "Frontend_ModuloUsuarios\Frontend_ModuloUsuarios.csproj", "{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelojMarcador.API", "RelojMarcador.API\RelojMarcador.API.csproj", "{729B2DE3-0635-401D-A8C7-1D5097CD89FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729B2DE3-0635-401D-A8C7-1D5097CD89FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729B2DE3-0635-401D-A8C7-1D5097CD89FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729B2DE3-0635-401D-A8C7-1D5097CD89FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729B2DE3-0635-401D-A8C7-1D5097CD89FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CC89A4B-CDA4-4BDB-B660-824F7CF6DD7C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,143 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "RelojMarcador.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Marcas/validar-funcionario": {
+      "post": {
+        "tags": [
+          "Marcas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { }
+            },
+            "text/json": {
+              "schema": { }
+            },
+            "application/*+json": {
+              "schema": { }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Marcas/funcionario/{identificacion}/id": {
+      "get": {
+        "tags": [
+          "Marcas"
+        ],
+        "parameters": [
+          {
+            "name": "identificacion",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Marcas/funcionario/{identificacion}/areas": {
+      "get": {
+        "tags": [
+          "Marcas"
+        ],
+        "parameters": [
+          {
+            "name": "identificacion",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Marcas/registrar": {
+      "post": {
+        "tags": [
+          "Marcas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Marca"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Marca"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Marca"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Marca": {
+        "type": "object",
+        "properties": {
+          "iD_Marca": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "iD_Funcionario": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "iD_Area": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "detalle": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo_Marca": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Hora": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

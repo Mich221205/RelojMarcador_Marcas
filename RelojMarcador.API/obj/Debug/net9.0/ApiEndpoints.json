@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "RelojMarcador.API.Controllers.MarcasController",
+    "Method": "ObtenerAreas",
+    "RelativePath": "api/Marcas/funcionario/{identificacion}/areas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "identificacion",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RelojMarcador.API.Controllers.MarcasController",
+    "Method": "ObtenerID",
+    "RelativePath": "api/Marcas/funcionario/{identificacion}/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "identificacion",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RelojMarcador.API.Controllers.MarcasController",
+    "Method": "RegistrarMarca",
+    "RelativePath": "api/Marcas/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "marca",
+        "Type": "RelojMarcador.API.Entities.Marca",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RelojMarcador.API.Controllers.MarcasController",
+    "Method": "ValidarFuncionario",
+    "RelativePath": "api/Marcas/validar-funcionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
