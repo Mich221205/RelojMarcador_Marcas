@@ -1,7 +1,12 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddHttpClient("ApiReloj", client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5186/api/marcas/"); // 👈 tu API
+});
 
 var app = builder.Build();
 

@@ -48,21 +48,21 @@ namespace RelojMarcador.API.DataAccess
             return result ?? 0;
         }
 
-        public async Task<IEnumerable<Area>> ObtenerAreasFuncionario(string identificacion)
+        public async Task<IEnumerable<Area>> ObtenerAreasFuncionario(int idFuncionario)
         {
             const string sql = @"
-                SELECT a.ID_Area, a.Nombre_Area
-                FROM Funcionarios f
-                INNER JOIN Funcionario_Area fa ON f.ID_Funcionario = fa.ID_Funcionario
+                SELECT a.ID_Area, a.Nombre_Area, fa.Fecha_Asignacion
+                FROM Funcionario_Area fa
                 INNER JOIN Areas a ON fa.ID_Area = a.ID_Area
-                WHERE f.Identificacion = @Identificacion;";
+                WHERE fa.ID_Funcionario = @idFuncionario;";
 
             await using var db = new MySqlConnection(_connectionString);
 
-            var result = await db.QueryAsync<Area>(sql, new { Identificacion = identificacion });
+            var result = await db.QueryAsync<Area>(sql, new { idFuncionario });
 
             return result;
         }
+
 
         public async Task<int> RegistrarMarca(int idFuncionario, int idArea, string detalle, string tipoMarca)
         {

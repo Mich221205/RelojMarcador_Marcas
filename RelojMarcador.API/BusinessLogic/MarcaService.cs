@@ -12,6 +12,17 @@ namespace RelojMarcador.API.BusinessLogic
             _repo = repo;
         }
 
+        public async Task<IEnumerable<Area>> ObtenerAreasPorIdentificacion(string identificacion)
+        {
+            var idFuncionario = await _repo.ObtenerIDFuncionario(identificacion);
+
+            if (idFuncionario == 0)
+                return Enumerable.Empty<Area>(); // no existe el funcionario
+
+            return await _repo.ObtenerAreasFuncionario(idFuncionario);
+        }
+
+
         public async Task<bool> ValidarFuncionario(string identificacion, string contrasena)
         {
             return await _repo.ValidarFuncionario(identificacion, contrasena);
@@ -20,11 +31,6 @@ namespace RelojMarcador.API.BusinessLogic
         public async Task<int> ObtenerIDFuncionario(string identificacion)
         {
             return await _repo.ObtenerIDFuncionario(identificacion);
-        }
-
-        public async Task<IEnumerable<Area>> ObtenerAreasFuncionario(string identificacion)
-        {
-            return await _repo.ObtenerAreasFuncionario(identificacion);
         }
 
         public async Task<int> RegistrarMarca(int idFuncionario, int idArea, string detalle, string tipoMarca)

@@ -16,16 +16,16 @@ namespace RelojMarcador.API.Controllers
         }
 
         [HttpPost("validar-funcionario")]
-        public async Task<IActionResult> ValidarFuncionario([FromBody] dynamic login)
+        public async Task<IActionResult> ValidarFuncionario([FromBody] Funcionario funcionario)
         {
-            string identificacion = login.identificacion;
-            string contrasena = login.contrasena;
+            var valido = await _service.ValidarFuncionario(funcionario.Identificacion, funcionario.Contrasena);
 
-            var valido = await _service.ValidarFuncionario(identificacion, contrasena);
+            if (!valido)
+                return Unauthorized(new { success = false, message = "Credenciales inválidas" });
 
-            if (!valido) return Unauthorized(new { success = false, message = "Credenciales inválidas" });
             return Ok(new { success = true });
         }
+
 
         [HttpGet("funcionario/{identificacion}/id")]
         public async Task<IActionResult> ObtenerID(string identificacion)
@@ -37,7 +37,7 @@ namespace RelojMarcador.API.Controllers
         [HttpGet("funcionario/{identificacion}/areas")]
         public async Task<IActionResult> ObtenerAreas(string identificacion)
         {
-            var areas = await _service.ObtenerAreasFuncionario(identificacion);
+            var areas = await _service.ObtenerAreasPorIdentificacion(identificacion);
             return Ok(areas);
         }
 

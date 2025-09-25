@@ -52,3 +52,4 @@ C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador.API\obj\Debug\net9
 C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador.API\obj\Debug\net9.0\RelojMarcador.API.pdb
 C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador.API\obj\Debug\net9.0\RelojMarcador.API.genruntimeconfig.cache
 C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador.API\obj\Debug\net9.0\ref\RelojMarcador.API.dll
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador.API\obj\Debug\net9.0\RelojMarcador.API.sourcelink.json

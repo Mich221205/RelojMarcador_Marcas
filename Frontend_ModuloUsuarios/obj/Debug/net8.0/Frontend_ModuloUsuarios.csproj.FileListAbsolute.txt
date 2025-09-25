@@ -29,3 +29,4 @@ C:\Users\Usuario\workspace\RelojMarcador_Marcas\Frontend_ModuloUsuarios\obj\Debu
 C:\Users\Usuario\workspace\RelojMarcador_Marcas\Frontend_ModuloUsuarios\obj\Debug\net8.0\Frontend_ModuloUsuarios.pdb
 C:\Users\Usuario\workspace\RelojMarcador_Marcas\Frontend_ModuloUsuarios\obj\Debug\net8.0\Frontend_ModuloUsuarios.genruntimeconfig.cache
 C:\Users\Usuario\workspace\RelojMarcador_Marcas\Frontend_ModuloUsuarios\obj\Debug\net8.0\ref\Frontend_ModuloUsuarios.dll
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\Frontend_ModuloUsuarios\obj\Debug\net8.0\Frontend_ModuloUsuarios.sourcelink.json
