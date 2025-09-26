@@ -4,11 +4,17 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Pages\Shared\" />
     <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RelojMarcador_Marcas.BusinessLogic\RelojMarcador_Marcas.BusinessLogic.csproj" />
+    <ProjectReference Include="..\RelojMarcador_Marcas.Entities\RelojMarcador_Marcas.Entities.csproj" />
   </ItemGroup>
 
 </Project>

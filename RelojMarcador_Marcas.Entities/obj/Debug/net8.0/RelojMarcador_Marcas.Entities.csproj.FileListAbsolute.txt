@@ -1,0 +1,12 @@
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\bin\Debug\net8.0\RelojMarcador_Marcas.Entities.deps.json
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\bin\Debug\net8.0\RelojMarcador_Marcas.Entities.dll
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\bin\Debug\net8.0\RelojMarcador_Marcas.Entities.pdb
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\net8.0\RelojMarcador_Marcas.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\net8.0\RelojMarcador_Marcas.Entities.AssemblyInfoInputs.cache
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\net8.0\RelojMarcador_Marcas.Entities.AssemblyInfo.cs
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\net8.0\RelojMarcador_Marcas.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\net8.0\RelojMarcador_Marcas.Entities.sourcelink.json
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\net8.0\RelojMarcador_Marcas.Entities.dll
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\net8.0\refint\RelojMarcador_Marcas.Entities.dll
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\net8.0\RelojMarcador_Marcas.Entities.pdb
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\net8.0\ref\RelojMarcador_Marcas.Entities.dll

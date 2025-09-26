@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BN3e99vXRa0=",
+  "dgSpecHash": "CtfsUfupvn4=",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\workspace\\RelojMarcador_Marcas\\Frontend_ModuloUsuarios\\Frontend_ModuloUsuarios.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\mysqlconnector\\2.3.6\\mysqlconnector.2.3.6.nupkg.sha512"
+  ],
   "logs": []
 }

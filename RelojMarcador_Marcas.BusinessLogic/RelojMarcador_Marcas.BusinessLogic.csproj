@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RelojMarcador_Marcas.DataAccess\RelojMarcador_Marcas.DataAccess.csproj" />
+    <ProjectReference Include="..\RelojMarcador_Marcas.Entities\RelojMarcador_Marcas.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

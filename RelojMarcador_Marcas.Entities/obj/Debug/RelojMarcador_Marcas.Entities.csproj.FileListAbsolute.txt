@@ -1,0 +1,6 @@
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\bin\Debug\RelojMarcador_Marcas.Entities.dll
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\bin\Debug\RelojMarcador_Marcas.Entities.pdb
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\RelojMarcador_Marcas.Entities.csproj.AssemblyReference.cache
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\RelojMarcador_Marcas.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\RelojMarcador_Marcas.Entities.dll
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.Entities\obj\Debug\RelojMarcador_Marcas.Entities.pdb

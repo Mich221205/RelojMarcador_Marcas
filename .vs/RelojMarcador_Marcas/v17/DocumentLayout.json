@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\workspace\\RelojMarcador_Marcas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}|Frontend_ModuloUsuarios\\Frontend_ModuloUsuarios.csproj|c:\\users\\usuario\\workspace\\relojmarcador_marcas\\frontend_modulousuarios\\pages\\marcas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}|Frontend_ModuloUsuarios\\Frontend_ModuloUsuarios.csproj|solutionrelative:frontend_modulousuarios\\pages\\marcas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}|Frontend_ModuloUsuarios\\Frontend_ModuloUsuarios.csproj|c:\\users\\usuario\\workspace\\relojmarcador_marcas\\frontend_modulousuarios\\pages\\marcas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}|Frontend_ModuloUsuarios\\Frontend_ModuloUsuarios.csproj|solutionrelative:frontend_modulousuarios\\pages\\marcas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}|Frontend_ModuloUsuarios\\Frontend_ModuloUsuarios.csproj|c:\\users\\usuario\\workspace\\relojmarcador_marcas\\frontend_modulousuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}|Frontend_ModuloUsuarios\\Frontend_ModuloUsuarios.csproj|solutionrelative:frontend_modulousuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}|Frontend_ModuloUsuarios\\Frontend_ModuloUsuarios.csproj|c:\\users\\usuario\\workspace\\relojmarcador_marcas\\frontend_modulousuarios\\pages\\marcas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F3F78A3-730E-4B46-A28D-F02A0E60D14F}|Frontend_ModuloUsuarios\\Frontend_ModuloUsuarios.csproj|solutionrelative:frontend_modulousuarios\\pages\\marcas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\workspace\\RelojMarcador_Marcas\\Frontend_ModuloUsuarios\\Program.cs",
-              "RelativeDocumentMoniker": "Frontend_ModuloUsuarios\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\workspace\\RelojMarcador_Marcas\\Frontend_ModuloUsuarios\\Program.cs",
-              "RelativeToolTip": "Frontend_ModuloUsuarios\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Marcas.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\workspace\\RelojMarcador_Marcas\\Frontend_ModuloUsuarios\\Pages\\Marcas.cshtml.cs",
+              "RelativeDocumentMoniker": "Frontend_ModuloUsuarios\\Pages\\Marcas.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\workspace\\RelojMarcador_Marcas\\Frontend_ModuloUsuarios\\Pages\\Marcas.cshtml.cs",
+              "RelativeToolTip": "Frontend_ModuloUsuarios\\Pages\\Marcas.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T21:57:42.917Z",
+              "WhenOpened": "2025-09-26T18:22:51.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Marcas.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\workspace\\RelojMarcador_Marcas\\Frontend_ModuloUsuarios\\Pages\\Marcas.cshtml",
               "RelativeDocumentMoniker": "Frontend_ModuloUsuarios\\Pages\\Marcas.cshtml",
               "ToolTip": "C:\\Users\\Usuario\\workspace\\RelojMarcador_Marcas\\Frontend_ModuloUsuarios\\Pages\\Marcas.cshtml",
               "RelativeToolTip": "Frontend_ModuloUsuarios\\Pages\\Marcas.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAwD4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwNYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-25T21:57:12.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T18:22:50.884Z"
             }
           ]
         }

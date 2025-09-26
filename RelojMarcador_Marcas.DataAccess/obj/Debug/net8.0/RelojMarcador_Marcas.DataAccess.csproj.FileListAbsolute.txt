@@ -1,0 +1,17 @@
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\bin\Debug\net8.0\RelojMarcador_Marcas.DataAccess.dll.config
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\bin\Debug\net8.0\RelojMarcador_Marcas.DataAccess.deps.json
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\bin\Debug\net8.0\RelojMarcador_Marcas.DataAccess.dll
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\bin\Debug\net8.0\RelojMarcador_Marcas.DataAccess.pdb
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\bin\Debug\net8.0\RelojMarcador_Marcas.Entities.dll
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\bin\Debug\net8.0\RelojMarcador_Marcas.Entities.pdb
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\obj\Debug\net8.0\RelojMarcador_Marcas.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\obj\Debug\net8.0\RelojMarcador_Marcas.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\obj\Debug\net8.0\RelojMarcador_Marcas.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\obj\Debug\net8.0\RelojMarcador_Marcas.DataAccess.AssemblyInfo.cs
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\obj\Debug\net8.0\RelojMarcador_Marcas.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\obj\Debug\net8.0\RelojMarcador_Marcas.DataAccess.sourcelink.json
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\obj\Debug\net8.0\RelojMar.79708F57.Up2Date
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\obj\Debug\net8.0\RelojMarcador_Marcas.DataAccess.dll
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\obj\Debug\net8.0\refint\RelojMarcador_Marcas.DataAccess.dll
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\obj\Debug\net8.0\RelojMarcador_Marcas.DataAccess.pdb
+C:\Users\Usuario\workspace\RelojMarcador_Marcas\RelojMarcador_Marcas.DataAccess\obj\Debug\net8.0\ref\RelojMarcador_Marcas.DataAccess.dll

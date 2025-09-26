@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RelojMarcador_Marcas.Entities/1.0.0": {
+        "runtime": {
+          "RelojMarcador_Marcas.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RelojMarcador_Marcas.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,36 +1,41 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using RelojMarcador_Marcas.BusinessLogic;
+using RelojMarcador_Marcas.DataAccess;
 
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddRazorPages();
 
-builder.Services.AddHttpClient("ApiReloj", client =>
-{
-    client.BaseAddress = new Uri("http://localhost:5186/api/marcas/"); // 👈 tu API
-});
+var connectionString = builder.Configuration.GetConnectionString("MySql")
+    ?? throw new InvalidOperationException("Cadena de conexión 'MySql' no encontrada.");
+
+builder.Services.AddScoped<MarcaRepository>(sp =>
+    new MarcaRepository(connectionString));
+
+
+builder.Services.AddScoped<MarcaService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+//app.MapGet("/test-db", (MarcaRepository repo) => repo.ProbarConexion());
 
 app.MapGet("/", context =>
 {
     context.Response.Redirect("/Marcas");
     return Task.CompletedTask;
 });
+
 
 app.Run();
